@@ -1,0 +1,83 @@
+*{
+padding: 0;
+margin: 0;
+}
+header{
+    height: 75px;
+    background-color: rgb(43,172,243);
+  }  
+
+footer{
+    height: 115px;
+    background-color:rgb(18,53,105);
+
+}
+#cuerpo {
+  background-color: rgb(224,224,224);
+}
+
+#titulo {
+  color: white;
+  font-family: Calibri;
+}
+#encabezado {
+  margin: 0px auto;
+}
+
+#encabezado td {
+  padding-left: 15px;
+}
+
+#redes {
+  padding: 15px;
+  margin: 0px auto;
+}
+#redes td {
+  padding-left: 15px;
+}
+
+#logo img {
+  width: 70px;
+  height: 70px;
+}
+
+#principal {
+  background-color: white;
+  width: 75%;
+  height:auto;
+  margin: 0px auto;
+  box-shadow: -10px 10px 15px #888888, 10px 10px 15px #888888;
+}
+
+#banner img {
+  width: 100%;
+  height: 125px;
+}
+
+
+p {
+  animation-duration: 2s;
+  animation-name: slidein;
+  margin-left: 45%;
+  margin-top: 10%;
+  font-size: 210%;
+}
+
+a {
+  animation-duration: 10s;
+  animation-name: slidein;
+  margin-left: 45%;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 45%;
+    width: 100%;
+  }
+}
+
